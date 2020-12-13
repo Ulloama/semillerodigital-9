@@ -1,6 +1,7 @@
 
 
 .button{
+    display: block;
     background-color: $auxiliar-color;
     border-radius: 4px;
     height: 4rem;
@@ -12,10 +13,27 @@
     font-weight: 500;
     font-family: $font-secundaria;
     color: $black;
-    box-shadow: 0px 4px 4px 0px #000000 25%;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
 }
 
 .button-programa{
     font-weight: 700;
     width: 25.5rem;
 }
+
+.button-blog{
+    display: block;
+    background-color: $auxiliar-color;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 1rem 0rem;
+    width: 25.2rem;
+    text-transform: uppercase;
+    color: $black;
+    font-family: $font-principal;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+

@@ -11,6 +11,7 @@ h3 {
 }
 
 .button {
+  display: block;
   background-color: #26ADFE;
   border-radius: 4px;
   height: 4rem;
@@ -22,12 +23,28 @@ h3 {
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   color: #121212;
-  box-shadow: 0px 4px 4px 0px #000000 25%;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .button-programa {
   font-weight: 700;
   width: 25.5rem;
+}
+
+.button-blog {
+  display: block;
+  background-color: #26ADFE;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 1rem 0rem;
+  width: 25.2rem;
+  text-transform: uppercase;
+  color: #121212;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 
 header .navbar {
@@ -137,8 +154,10 @@ header .navbar .navbar-nav .nav-link {
   background-color: #FCA707;
   width: 111.3rem;
   border-radius: 0.4rem;
-  box-shadow: 0px 4px 4px 0px #000000 25%;
   padding: 3.2rem 0;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .hacemos .objetivo h3 {
   font-size: 3.6rem;
@@ -290,6 +309,57 @@ footer .row .redes li a {
   left: -66.4rem;
 }
 
+#blog {
+  margin-bottom: 8.8rem;
+  position: relative;
+  z-index: 100;
+}
+#blog h2 {
+  margin-top: 7.5rem;
+  margin-bottom: 25.9rem;
+}
+#blog .blog__parrafo {
+  width: 110rem;
+  font-size: 2.4rem;
+  margin-bottom: 7rem;
+}
+#blog::before {
+  content: " ";
+  display: block;
+  height: 115.8rem;
+  width: 115.8rem;
+  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  top: -66.2rem;
+  left: -66.4rem;
+}
+#blog .blog__entrada {
+  background-color: #FAFAFA;
+  padding: 1.2rem 6.6rem 5rem 6.6rem;
+  margin-bottom: 8.3rem;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+#blog .blog__entrada .blog__entrada-h {
+  margin: 0 auto;
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  width: 100rem;
+}
+#blog .blog__entrada .blog__descripcion {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+#blog .blog__entrada .blog__vista-previa {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
 * {
   margin: 0;
   padding: 0;
