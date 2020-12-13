@@ -227,7 +227,6 @@ footer .row .footer-titulo {
 }
 footer .row .redes {
   display: flex;
-  justify-content: space-between;
   list-style: none;
 }
 footer .row .redes li {
@@ -238,7 +237,11 @@ footer .row .redes li:last-of-type {
 }
 footer .row .redes li a {
   text-decoration: none;
+}
+footer .row .redes li a img {
   display: block;
+  width: 3.2rem;
+  height: 3.2rem;
 }
 
 .cursos h3 {
