@@ -1,0 +1,13 @@
+body {
+    background-image: url("../images/index-background.png");
+    background-size: 100%
+  }
+
+nav {
+    font-size: 18px;
+    font-family: Poppins;
+}
+
+#sembrando {
+    font-size: 48px;
+}
