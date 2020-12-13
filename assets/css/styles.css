@@ -1,12 +1,21 @@
 #body-home {
   background-image: url("../images/background-home.png");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #body-cursos {
   background-image: url("../images/background-cursos.png");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
+
+.body-background {
+  background-image: url("../images/background-contacto.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 
 h2 {
   font-family: "Poppins", sans-serif;
