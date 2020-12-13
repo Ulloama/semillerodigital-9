@@ -15,6 +15,25 @@ header{
                 color: $black;
                 font-family: $font-principal;
             }
+
+            .nav-item{
+                margin-right: 1rem;
+                border-bottom: 1px solid transparent;
+                transition: 1s;
+
+                &:hover{
+                    border-bottom: 1px solid $black;
+                }
+            }
+
+            button{
+                border: none;
+                background-color: transparent;
+                outline: none;
+                padding: 0;
+                position: relative;
+                bottom: -.6rem;
+            }
         }
     }
 }

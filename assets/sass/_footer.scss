@@ -23,11 +23,13 @@ footer{
 
             li{
                 margin-right: 3.7rem;
+                
                 &:last-of-type{
                     margin: 0;
                 }
                 a{
                     text-decoration: none;
+                    display: block;
                 }
             }
         }

@@ -47,6 +47,24 @@ h3 {
   font-size: 1.6rem;
 }
 
+.button-blog-inicio {
+  display: block;
+  width: 6.4rem;
+  height: 6.4rem;
+  background: radial-gradient(50% 50% at 50% 50%, #A4E029 0%, #A4E029 100%);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  color: #121212;
+  align-items: flex-end;
+  justify-content: center;
+}
+.button-blog-inicio::before {
+  content: "";
+}
+
 header .navbar {
   position: relative;
   z-index: 9;
@@ -57,6 +75,22 @@ header .navbar .navbar-nav .nav-link {
   font-size: 1.8rem;
   color: #121212;
   font-family: "Poppins", sans-serif;
+}
+header .navbar .navbar-nav .nav-item {
+  margin-right: 1rem;
+  border-bottom: 1px solid transparent;
+  transition: 1s;
+}
+header .navbar .navbar-nav .nav-item:hover {
+  border-bottom: 1px solid #121212;
+}
+header .navbar .navbar-nav button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0;
+  position: relative;
+  bottom: -0.6rem;
 }
 
 .home-superior {
@@ -204,6 +238,7 @@ footer .row .redes li:last-of-type {
 }
 footer .row .redes li a {
   text-decoration: none;
+  display: block;
 }
 
 .cursos h3 {
@@ -281,6 +316,42 @@ footer .row .redes li a {
   font-family: "Poppins", sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
+}
+#sembrar strong {
+  font-weight: 700;
+}
+
+.estructura h3 {
+  margin: 5.2rem 0;
+  font-size: 4.8rem;
+}
+.estructura .card-estructura .card-img img {
+  width: 25.5rem;
+  height: 25.5rem;
+}
+.estructura .card-estructura h4 {
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: 700;
+}
+.estructura .card-estructura .card-texto-staff, .estructura .card-estructura .card-texto-sembrador {
+  text-transform: capitalize;
+  font-size: 2.4rem;
+  color: #26ADFE;
+  text-align: center;
+  font-weight: 700;
+}
+.estructura .card-estructura .card-texto-sembrador {
+  color: #FCA707;
+}
+.estructura .card-estructura p {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 700;
+}
+.estructura .card-estructura .card-texto {
+  margin-top: 4.3rem;
+  margin-bottom: 7.2rem;
 }
 
 #contacto {
@@ -360,6 +431,41 @@ footer .row .redes li a {
   font-weight: 400;
   font-size: 1.6rem;
 }
+#entrada-blog .blog__entrada-h {
+  margin: 0 auto;
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  width: 100rem;
+  text-align: center;
+  padding: 2rem;
+}
+#entrada-blog .blog__descripcion {
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-align: center;
+}
+#entrada-blog img {
+  text-align: center;
+  margin: 0 auto;
+  width: 91.7rem;
+  display: block;
+  margin-bottom: 2rem;
+}
+#entrada-blog p {
+  margin-bottom: 2rem;
+}
+#entrada-blog h3 {
+  font-size: 2.4rem;
+  margin: 3rem 0;
+}
+#entrada-blog .pie-de-foto {
+  font-weight: 500;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 3.6rem;
+}
+
 * {
   margin: 0;
   padding: 0;

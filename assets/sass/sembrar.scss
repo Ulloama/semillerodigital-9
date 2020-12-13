@@ -73,5 +73,57 @@
             }
         }
     }
+
+    strong{
+        font-weight: 700;
+    }
+}
+
+
+//Estructura
+
+.estructura{
+    h3{
+        margin: 5.2rem 0;
+        font-size: 4.8rem;
+    }
+    .card-estructura{
+        .card-img{
+            
+            img{
+                width: 25.5rem;
+                height: 25.5rem;
+            }
+        }
+
+        h4{    
+            font-size: 3.2rem;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .card-texto-staff, .card-texto-sembrador{
+            text-transform: capitalize;
+            font-size: 2.4rem;
+            color: $auxiliar-color;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .card-texto-sembrador{
+            color: $branding-color;
+        }
+
+        p{
+            font-size: 2.4rem;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .card-texto{
+            margin-top: 4.3rem;
+            margin-bottom: 7.2rem;
+        }
+    }
 }
 
