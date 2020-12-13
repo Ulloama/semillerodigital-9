@@ -1,0 +1,31 @@
+
+//contacto
+
+#contacto{
+    margin-bottom: 8.8rem;
+    position: relative;
+    z-index: 100;
+    h2{
+        margin-top: 7.5rem;
+        margin-bottom: 25.9rem;
+    }
+
+    .contacto__parrafo{
+        width: 110rem;
+        font-size: 2.4rem;
+    }
+
+    &::before{
+        content: " ";
+        display: block;
+        height: 115.8rem;
+        width: 115.8rem;
+        background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+        top: -66.2rem;
+        left: -66.4rem;
+    }
+}
+

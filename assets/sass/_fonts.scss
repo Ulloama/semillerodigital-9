@@ -1,0 +1,19 @@
+//Fuentes
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+$font-principal: 'Poppins', sans-serif;
+$font-secundaria: 'Roboto', sans-serif;
+
+
+h2{
+    font-family: $font-principal;
+    font-weight: 700;
+    font-size: 6.4rem;
+}
+
+h3{
+    font-family: $font-principal;
+    font-weight: 700;
+    font-size: 2.4rem;
+}

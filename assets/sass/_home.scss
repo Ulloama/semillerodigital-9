@@ -1,0 +1,160 @@
+
+
+//Home principal
+
+
+//Sección superior
+
+.home-superior{
+    height: 100vh;
+    min-height: 71.5rem;
+
+    .home-superior__texto{
+        position: relative;
+        z-index: 100;
+        h1{
+            strong{
+                font-family: $font-principal;
+                font-weight: 700;
+                font-size: 7.2rem;
+            }
+            font-weight: 400;
+            font-size: 4.8rem;
+        }
+
+        p{
+            font-size: 2.4rem;
+            color: $black;
+            width: 44.2rem;
+            margin-top: 1.6rem;
+        }
+
+        .parrafo-boton{
+            font-weight: 300;
+            font-size: 1.8rem;
+        }
+
+    }
+    &::before{
+        content: " ";
+        display: block;
+        height: 89.2rem;
+        width: 89.2rem;
+        background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+        position: absolute;
+        z-index: 10;
+        border-radius: 50%;
+        top: -10.5rem;
+        left: -18.2rem;
+    }
+
+
+}
+
+
+//Nuestro Propósito
+
+.proposito{
+    font-family: $font-principal;
+    font-size: 2.4rem;
+    .row{
+        margin-bottom: 7rem;
+        .proposito__titulo{
+            margin: 5.1rem 0 4rem 0;
+        }
+    
+        .proposito__subtitulo{
+            
+            h3{
+                span{
+                    font-weight: 700;
+                }
+            }
+        }
+    
+        .proposito__descripcion{
+            font-weight: 400;
+            width: 111rem;
+        }
+    }
+
+    .proposito__items{
+        .proposito__items-img{
+            width: 25.5rem;
+            height: 25.5rem;
+            background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+            border-radius: 50%;
+        }
+
+        .proposito__items-titulo{
+            margin: 3.6rem 0 0.7rem 0;
+        }
+
+        p{
+            font-family: $font-principal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            text-align: center;
+            width: 29rem;
+
+        }
+    }
+}
+
+//Que hacemos
+
+.hacemos{
+    height: 100vh;
+    min-height: 95.2rem;
+    h2{
+        // color: $white;
+        margin-bottom: 2.2rem;
+
+    }
+
+    p{
+        width: 39.8rem;
+        font-family: $font-principal;
+        font-weight: 400;
+        font-size: 2.4rem;
+        margin: 0 auto;
+        span{
+            font-weight: 700;
+        }
+    }
+
+    .objetivo{
+        background-color: $branding-color;
+        width: 111.3rem;
+        border-radius: .4rem;
+        padding: 3.2rem 0;
+
+        -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+        box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+
+        h3{
+            font-size: 3.6rem;
+        }
+        p{
+            font-size: 1.8rem;
+            width: 100%;
+
+            strong{
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+//Empresas aliadas
+
+.aliados{
+    height: 100vh;
+    min-height: 71.5rem;
+    .row{
+        h3{
+            font-size: 1.8rem;
+        }
+    }
+}

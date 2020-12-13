@@ -1,0 +1,39 @@
+
+//Header - navbar
+
+
+header{
+    .navbar{
+        position: relative;
+        z-index: 9;
+        padding: 1.9rem 1.28rem;
+        background-color: $white;
+        
+        .navbar-nav{
+            .nav-link{
+                font-size: 1.8rem;
+                color: $black;
+                font-family: $font-principal;
+            }
+
+            .nav-item{
+                margin-right: 1rem;
+                border-bottom: 1px solid transparent;
+                transition: 1s;
+
+                &:hover{
+                    border-bottom: 1px solid $black;
+                }
+            }
+
+            button{
+                border: none;
+                background-color: transparent;
+                outline: none;
+                padding: 0;
+                position: relative;
+                bottom: -.6rem;
+            }
+        }
+    }
+}

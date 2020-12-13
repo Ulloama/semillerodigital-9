@@ -18,14 +18,14 @@ $.ajax({
 function renderCursos(data) {
     data.forEach(function(curso, index) {
         listaCursos.append(
-        `<div class="col-lg-4 col-lg-4 mb-5 bt-5">
-            <div>
-                <img src="" alt="curso 1">
+        `<div class="col-lg-10 col-xl-4 mb-5 bt-5 d-flex flex-column align-items-center justify-content-center">
+            <div class="cursos-img">
+                <img src="${curso.img}" alt="curso 1">
             </div>
             <h3>${curso.title}</h3>
             <p>${curso.description}</p>
-            <a href="${curso.schedule}" data-id="${index}" class="btn btn-dark">Ver Programa</a>
+            <button class="button button-programa"><a href="${curso.schedule}" data-id="${index}" style="text-decoration: none; color: black;">Ver Programa</a></button>
         </div>`
         )
     })
-};
+}

@@ -1,0 +1,57 @@
+
+
+.button{
+    display: block;
+    background-color: $auxiliar-color;
+    border-radius: 4px;
+    height: 4rem;
+    width: 34.7rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: $font-secundaria;
+    color: $black;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.button-programa{
+    font-weight: 700;
+    width: 25.5rem;
+}
+
+.button-blog{
+    display: block;
+    background-color: $auxiliar-color;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 1rem 0rem;
+    width: 25.2rem;
+    text-transform: uppercase;
+    color: $black;
+    font-family: $font-principal;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.button-blog-inicio{
+    display: block;
+    width: 6.4rem;
+    height: 6.4rem;
+    background: radial-gradient(50% 50% at 50% 50%, #A4E029 0%, #A4E029 100%);
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 400;
+    font-family: $font-principal;
+    display: flex;
+    color: $black;
+    align-items: flex-end;
+    justify-content: center;
+
+    &::before{
+        content: "";
+    }
+}

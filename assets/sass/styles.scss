@@ -1,0 +1,30 @@
+@import 'color';
+@import 'fonts';
+@import 'botones';
+@import 'header';
+@import 'home';
+@import 'footer';
+@import 'cursos';
+@import 'sembrar';
+@import 'contacto';
+@import 'blog';
+
+
+// Resets
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Reset para REMS 1rem = 10px
+
+html{
+    font-size: 62.5%; 
+}
+
+body{
+    font-size: 1.8rem;
+    font-family: $font-secundaria;
+}

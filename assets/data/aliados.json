@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "Mercado Libre",
+        "url": "https://www.mercadolibre.com.ar/",
+        "img": "../assets/images/meli-codos.png"
+    },
+    {
+        "id": "2",
+        "title": "CoderHouse",
+        "url": "https://www.coderhouse.com/",
+        "img": "../assets/images/coderhouse.png"
+    },
+    {
+        "id": "3",
+        "title": "Tienda Nube",
+        "url": "https://www.tiendanube.com/",
+        "img": "../assets/images/tienda-nube.png"
+    }
+]

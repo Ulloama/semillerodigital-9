@@ -1,0 +1,24 @@
+
+//seccion capacitaciones
+
+
+.cursos{
+
+    h3{
+        font-size: 2.4rem;
+        margin: 3rem 0;
+    }
+
+    p{
+        width: 25.5rem;
+        font-family: $font-principal;
+        font-size: 1.8rem;
+    }
+
+    .cursos-img{
+        width: 25.5rem;
+        height: 25.5rem;
+        background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+        border-radius: 50%;
+    }
+}

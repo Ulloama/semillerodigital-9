@@ -5,23 +5,30 @@
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="./assets/css/styles.css" rel="stylesheet"></link>
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
+    <script src="./assets/data/aliados.json"></script>
+    <script defer src="./assets/scripts/renderAliados.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semillero Digital - Sembrando Conocimiento</title>
 </head>
 
-<body>
+<body id="body-home">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top container">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <a class="navbar-brand" href="#">
-                <img src="./assets/images/logo-semillero.png" width="100" alt="logo semillero digital">
+                <img src="" alt="logo semillero digital">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -32,19 +39,32 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index-capa.html">Mirá nuestros cursos</a>
+                        <a class="nav-link" href="cursos.html">Mirá nuestros Cursos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class=""
+                                    type="button" id="dropdownMenu1" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Veni a Sembrar
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                              <a class="dropdown-item nav-link" href="index-sembrar.html">Veni a Sembrar</a>
+                              <a class="dropdown-item nav-link" href="index-reseñas.html">Reseñas de sembradores</a>
+                              <a class="dropdown-item nav-link" href="index-ser-parte.html">Sé parte</a>
+                            </div>
+                          </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index-form.html">Vení a sembrar</a>
+                        <a class="nav-link" href="index-blog.html">Blog</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -54,71 +74,73 @@
     <!-- index principal -->
 
     <!-- sección superior -->
-    <section class="container">
-        <div class="row justify-content-center align-items-center text-center flex-lg-row flex-lg-nowrap vh-100">
-            <div class="col-lg-8 col-lg-5">
-                <h1 id="sembrando" class="mt-5 mb-5"><strong>Sembrando</strong> <br>conocimiento</h1>
+    <section class="container home-superior">
+        <div class="row justify-content-center align-items-center flex-lg-row flex-lg-nowrap">
+            <div class="col-lg-8 col-xl-5 home-superior__texto">
+                <h1 class="mt-5 mb-5"><strong>Sembrando</strong> conocimiento</h1>
                 <p class="mb-5">Desarrolla tus habilidades a través de nuestros programas de entrenamiento digital.</p>
 
-                <button>Ver cursos</button>
-                <p>El mundo esta cambiando, cambia con él.</p>
-            </div> 
+                <button class="button button-principal">Ver cursos</button>
+                <p class="parrafo-boton">El mundo esta cambiando, cambia con él.</p>
+            </div>
 
-            <div class="d-none d-xl-block col-lg-7">
+            <div class="d-none d-xl-block col-xl-7">
                 <img src="" alt="">
             </div>
-        </div>   
+        </div>
     </section>
 
     <!-- nuestro Propósito -->
-    <section>
+    <section class="proposito" style="padding-top: 200px;">
         <div class="row justify-content-center text-center">
-            <div class="col-lg-8 mt-5 mb-5">
+            <div class="col-lg-8 mt-5 mb-5 proposito__titulo">
                 <h2>Nuestro Propósito</h2>
-            </div>  
-
-            <div class="col-lg-10 mb-5">
-                <h3>ARRASA A NIVEL DIGITAL DE FORMA FÁCIL Y DIRECTA</h3>
             </div>
 
-            <div class="col-lg-8 mb-5">
+            <div class="col-lg-10 mb-5 proposito__subtitulo">
+                <h3><span>ARRASA</span> A NIVEL DIGITAL DE FORMA <span>FÁCIL</span> Y <span>DIRECTA</span></h3>
+            </div>
+
+            <div class="col-lg-8 mb-5 proposito__descripcion">
                 <p>
-                    Somos una comunidad de profesionales voluntarios que transmite el valores y conocimientos a traves de un
-                    programa de capacitaciones en oficios digitales y mentoreo laboral. Generando impacto social mediante el
+                    Somos una comunidad de profesionales voluntarios que transmite el valores y conocimientos a traves
+                    de un
+                    programa de capacitaciones en oficios digitales y mentoreo laboral. Generando impacto social
+                    mediante el
                     empleo digital
                 </p>
             </div>
         </div>
-        
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-8 col-lg-4 mb-5 bt-5">
-                <div>
-                    <img src="./assets/images/profesores-home.png" alt="profesores semillero digital">
+
+        <div class="row justify-content-center text-center proposito__items align-items-center">
+            <div class="col-lg-10 col-xl-4 mb-5 bt-5 d-flex flex-column align-items-center justify-content-center">
+                <div class="proposito__items-img">
+                    <img src="./assets/images/profes-home.png" alt="profesores semillero digital">
                 </div>
-                <h3>Profesores con experiencia</h3>
+                <h3 class="proposito__items-titulo">Profesores con experiencia</h3>
                 <p>
                     Independientemente de su experiencia previa, muchos han encontrado en este sistema un nuevo estilo
                     de
                     vida y una forma de explotar el potencial de Internet
                 </p>
             </div>
-    
-            <div class="col-lg-8 col-lg-4 mb-5">
-                <div>
+
+            <div class="col-lg-10 col-xl-4 mb-5 d-flex flex-column align-items-center justify-content-center">
+                <div class="proposito__items-img">
                     <img src="./assets/images/practica-home.png" alt="practica semillero digital">
                 </div>
-                <h3>Práctica</h3>
+                <h3 class="proposito__items-titulo">Práctica</h3>
                 <p>
                     La práctica hace al maestro. Los cursos están pensados para ser cursados de forma proactiva por el
                     alumno, con ejercicios prácticos diseñados para interiorizar los conceptos.
                 </p>
             </div>
-    
-            <div class="col-lg-8 col-lg-4 mb-5">
-                <div>
-                    <img src="./assets/images/riego-home.png" alt="sin riesgo semillero digital">
+
+            <div class="col-lg-10 col-xl-4 mb-5 d-flex flex-column align-items-center justify-content-center">
+                <div class="proposito__items-img">
+                    <img src="./assets/images/sinriesgos-home.png" alt="sin riesgo semillero digital">
                 </div>
-                <h3>Sin riesgo</h3>
+                <h3 class="proposito__items-titulo">Sin riesgo</h3>
                 <p>
                     Independientemente de su experiencia previa, muchos han encontrado en este sistema un nuevo estilo
                     de vida y una forma de explotar el potencial de Internet
@@ -128,86 +150,56 @@
     </section>
 
     <!-- que hacemos -->
-    <section>
+    <section class="hacemos">
         <div class="row justify-content-center text-center">
             <div class="col-lg-8">
                 <h2 class="mt-5 mb-5">¿Qué Hacemos?</h2>
                 <p>
-                    Generamos un Algoritmo que conecta, integra y potencia.
+                    Generamos un Algoritmo que <span>conecta</span>, <span>integra</span> y <span>potencia</span>
                 </p>
             </div>
-            
+
             <div class="mb-5">
-                <img src="" alt="empresas jovenes empresas aliadas y profesionales">
+                <img src="./assets/images/central-home.png" style="display: block; margin: auto;"  alt="empresas jovenes empresas aliadas y profesionales">
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-10 objetivo">
                 <h3 class="mb-5">Objetivo</h3>
                 <p>
-                    POTENCIAR personas,
-                    CONECTAR caminos e
-                    INTEGRAR mundos que
-                    parecieran estar diseñados para
-                    no cruzarse: Lxs Jóvenes en
-                    pobreza económica de un lado
-                    y lxs Profesionales y las
-                    Empresas del campo laboral
-                    igital del otro.
+                    <strong>POTENCIAR</strong> personas, <strong>CONECTAR</strong> caminos e <strong>INTEGRAR</strong> mundos que parecieran estar diseñados para no
+                    cruzarse: Lxs Jóvenes en pobreza económica de un lado y lxs Profesionales y las Empresas del campo
+                    laboral digital del otro.
                 </p>
             </div>
         </div>
     </section>
 
     <!-- Empresas aliadas -->
-    <section>
-        <div class="row justify-content-center text-center">
+    <section class="aliados" style="padding-top: 550px; padding-bottom: 750px;">
+        <div class="row justify-content-center align-items-center text-center">
             <h2 class="mb-5 bt-5">Nuestros Aliados</h2>
-
-            <div class="col-lg-4 col-lg-4 mb-5">
-                <div>
-                    <img src="" alt="mercado libre y semillero digital">
-                </div>
-                <h3>Mercado Libre</h3>
-            </div>
-
-            <div class="col-lg-4 col-lg-4 mb-5">
-                <div>
-                    <img src="" alt="tienda nube y semillero digital">
-                </div>
-                <h3>Tienda Nube</h3>
-            </div>
-
-            <div class="col-lg-4 col-lg-4 mb-5">
-                <div>
-                    <img src="" alt="coderhouse y semillero digital">
-                </div>
-                <h3>CoderHouse</h3>
-            </div>
+            <div class="row" id="aliados"></div>
         </div>
     </section>
 
 
-    <footer class="text-center bg-light">
-        <div class="row">
-            <div class="col-lg-4">
+    <footer>
+        <div class="row align-items-center justify-content-center container">
+            <div class="col-xl-4">
                 <img src="" alt="logo semillero digital">
             </div>
 
-            <div class="col-lg-4">
-                <p>
-                    contactanos
-                </p>
-                <p>
-                    semillerodigitalarg@gmail.com
-                </p>
+            <div class="col-xl-4">
+                <p class="footer-titulo">Contactános:</p>
+                <p>semillerodigitalarg@gmail.com</p>
             </div>
 
-            <div class="col-lg-4">
-                <p>Seguinos en nuestras redes sociales: </p>
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item"><a href=""><img src="" alt="youtube semillero digital"></a></li>
-                    <li class="list-group-item"><a href=""><img src="" alt="linkedin semillero digital"></a></li>
-                    <li class="list-group-item"><a href=""><img src="" alt="instagram semillero digital"></a></li>
-                    <li class="list-group-item"><a href=""><img src="" alt="facebook semillero digital"></a></li>
+            <div class="col-xl-4">
+                <p class="footer-titulo">Seguinos en nuestras redes sociales: </p>
+                <ul class="redes">
+                    <li><a href=""><img src="assets/images/rrss/logo-youtube.svg" alt="youtube semillero digital"></a></li>
+                    <li><a href=""><img src="assets/images/rrss/logo-linkedin.svg" alt="linkedin semillero digital"></a></li>
+                    <li><a href=""><img src="assets/images/rrss/logo-instagram.svg" alt="instagram semillero digital"></a></li>
+                    <li><a href=""><img src="assets/images/rrss/logo-facebook.svg" alt="facebook semillero digital"></a></li>
                 </ul>
             </div>
         </div>
@@ -215,9 +207,6 @@
 
 
     <!-- JS de Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>

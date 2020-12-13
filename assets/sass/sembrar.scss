@@ -1,0 +1,129 @@
+
+//veni a sembrar
+//este estilo sirve también para reviw de sembradores
+
+#sembrar{
+    margin-bottom: 8.8rem;
+    position: relative;
+    z-index: 100;
+    h2{
+        margin-top: 7.5rem;
+        margin-bottom: 25.9rem;
+    }
+
+    .sembrar__parrafo{
+        width: 110rem;
+        font-size: 2.4rem;
+    }
+
+    &::before{
+        content: " ";
+        display: block;
+        height: 115.8rem;
+        width: 115.8rem;
+        background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+        top: -66.2rem;
+        left: -66.4rem;
+    }
+
+    .sembrar-staff{
+        width: 91.8rem;
+        background: $auxiliar-color;
+        border-radius: 4px;
+        padding: 3.3rem;
+        margin-top: 14.4rem;
+
+        p{
+            margin: 0;
+            color: $white;
+            font-family: $font-principal;
+            font-size: 2.4rem;
+            font-weight: 700;
+        }
+        
+    }
+
+    
+
+    .sembrar-items{
+        div{
+            width: 25rem;
+            background: radial-gradient(50% 50% at 50% 50%, #A4E029 0%, #A4E029 100%);
+            border-radius: 4px;
+            padding: 3.3rem 1.9rem;
+            margin-right: 8.3rem;
+            margin-top: 7.7rem;
+
+            &:last-of-type{
+                margin-right: 0;
+            }
+
+            p{
+                margin: 0;
+            }
+            p{
+                margin: 0;
+                color: $white;
+                font-family: $font-principal;
+                font-size: 2.4rem;
+                font-weight: 700;
+            }
+        }
+    }
+
+    strong{
+        font-weight: 700;
+    }
+}
+
+
+//Estructura
+
+.estructura{
+    h3{
+        margin: 5.2rem 0;
+        font-size: 4.8rem;
+    }
+    .card-estructura{
+        .card-img{
+            
+            img{
+                width: 25.5rem;
+                height: 25.5rem;
+            }
+        }
+
+        h4{    
+            font-size: 3.2rem;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .card-texto-staff, .card-texto-sembrador{
+            text-transform: capitalize;
+            font-size: 2.4rem;
+            color: $auxiliar-color;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .card-texto-sembrador{
+            color: $branding-color;
+        }
+
+        p{
+            font-size: 2.4rem;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .card-texto{
+            margin-top: 4.3rem;
+            margin-bottom: 7.2rem;
+        }
+    }
+}
+
