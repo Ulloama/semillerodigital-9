@@ -1,0 +1,308 @@
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 6.4rem;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.button {
+  background-color: #26ADFE;
+  border-radius: 4px;
+  height: 4rem;
+  width: 34.7rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #121212;
+  box-shadow: 0px 4px 4px 0px #000000 25%;
+}
+
+.button-programa {
+  font-weight: 700;
+  width: 25.5rem;
+}
+
+header .navbar {
+  position: relative;
+  z-index: 9;
+  padding: 1.9rem 1.28rem;
+  background-color: #ffffff;
+}
+header .navbar .navbar-nav .nav-link {
+  font-size: 1.8rem;
+  color: #121212;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-superior {
+  height: 100vh;
+  min-height: 71.5rem;
+}
+.home-superior .home-superior__texto {
+  position: relative;
+  z-index: 100;
+}
+.home-superior .home-superior__texto h1 {
+  font-weight: 400;
+  font-size: 4.8rem;
+}
+.home-superior .home-superior__texto h1 strong {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 7.2rem;
+}
+.home-superior .home-superior__texto p {
+  font-size: 2.4rem;
+  color: #121212;
+  width: 44.2rem;
+  margin-top: 1.6rem;
+}
+.home-superior .home-superior__texto .parrafo-boton {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+.home-superior::before {
+  content: " ";
+  display: block;
+  height: 89.2rem;
+  width: 89.2rem;
+  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+  position: absolute;
+  z-index: 10;
+  border-radius: 50%;
+  top: -10.5rem;
+  left: -18.2rem;
+}
+
+.proposito {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+}
+.proposito .row {
+  margin-bottom: 7rem;
+}
+.proposito .row .proposito__titulo {
+  margin: 5.1rem 0 4rem 0;
+}
+.proposito .row .proposito__subtitulo h3 span {
+  font-weight: 700;
+}
+.proposito .row .proposito__descripcion {
+  font-weight: 400;
+  width: 111rem;
+}
+.proposito .proposito__items .proposito__items-img {
+  width: 25.5rem;
+  height: 25.5rem;
+  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+  border-radius: 50%;
+}
+.proposito .proposito__items .proposito__items-titulo {
+  margin: 3.6rem 0 0.7rem 0;
+}
+.proposito .proposito__items p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 29rem;
+}
+
+.hacemos {
+  height: 100vh;
+  min-height: 95.2rem;
+}
+.hacemos h2 {
+  margin-bottom: 2.2rem;
+}
+.hacemos p {
+  width: 39.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin: 0 auto;
+}
+.hacemos p span {
+  font-weight: 700;
+}
+.hacemos .objetivo {
+  background-color: #FCA707;
+  width: 111.3rem;
+  border-radius: 0.4rem;
+  box-shadow: 0px 4px 4px 0px #000000 25%;
+  padding: 3.2rem 0;
+}
+.hacemos .objetivo h3 {
+  font-size: 3.6rem;
+}
+.hacemos .objetivo p {
+  font-size: 1.8rem;
+  width: 100%;
+}
+.hacemos .objetivo p strong {
+  font-weight: 700;
+}
+
+.aliados {
+  height: 100vh;
+  min-height: 71.5rem;
+}
+.aliados .row h3 {
+  font-size: 1.8rem;
+}
+
+footer {
+  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+  height: 23.5rem;
+}
+footer .row {
+  height: 100%;
+  margin: 0 auto;
+}
+footer .row .footer-titulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+footer .row .redes {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+footer .row .redes li {
+  margin-right: 3.7rem;
+}
+footer .row .redes li:last-of-type {
+  margin: 0;
+}
+footer .row .redes li a {
+  text-decoration: none;
+}
+
+.cursos h3 {
+  font-size: 2.4rem;
+  margin: 3rem 0;
+}
+.cursos p {
+  width: 25.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+}
+.cursos .cursos-img {
+  width: 25.5rem;
+  height: 25.5rem;
+  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+  border-radius: 50%;
+}
+
+#sembrar {
+  margin-bottom: 8.8rem;
+  position: relative;
+  z-index: 100;
+}
+#sembrar h2 {
+  margin-top: 7.5rem;
+  margin-bottom: 25.9rem;
+}
+#sembrar .sembrar__parrafo {
+  width: 110rem;
+  font-size: 2.4rem;
+}
+#sembrar::before {
+  content: " ";
+  display: block;
+  height: 115.8rem;
+  width: 115.8rem;
+  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  top: -66.2rem;
+  left: -66.4rem;
+}
+#sembrar .sembrar-staff {
+  width: 91.8rem;
+  background: #26ADFE;
+  border-radius: 4px;
+  padding: 3.3rem;
+  margin-top: 14.4rem;
+}
+#sembrar .sembrar-staff p {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+#sembrar .sembrar-items div {
+  width: 25rem;
+  background: radial-gradient(50% 50% at 50% 50%, #A4E029 0%, #A4E029 100%);
+  border-radius: 4px;
+  padding: 3.3rem 1.9rem;
+  margin-right: 8.3rem;
+  margin-top: 7.7rem;
+}
+#sembrar .sembrar-items div:last-of-type {
+  margin-right: 0;
+}
+#sembrar .sembrar-items div p {
+  margin: 0;
+}
+#sembrar .sembrar-items div p {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+#contacto {
+  margin-bottom: 8.8rem;
+  position: relative;
+  z-index: 100;
+}
+#contacto h2 {
+  margin-top: 7.5rem;
+  margin-bottom: 25.9rem;
+}
+#contacto .contacto__parrafo {
+  width: 110rem;
+  font-size: 2.4rem;
+}
+#contacto::before {
+  content: " ";
+  display: block;
+  height: 115.8rem;
+  width: 115.8rem;
+  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  top: -66.2rem;
+  left: -66.4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
