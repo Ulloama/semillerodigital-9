@@ -6,7 +6,7 @@ listaCursos = $("#cursos")
 
 $.ajax({
     method: 'GET',
-    url : "./data.json",
+    url : "./data/data.json",
     datatype: 'json'
 }).done(function(data){
     renderCursos(data);
@@ -18,14 +18,13 @@ $.ajax({
 function renderCursos(data) {
     data.forEach(function(curso, index) {
         listaCursos.append(
-        `<div class="col mb-4" style="padding-top: 15px">
-            <div class="card h-100 border-secondary">
-                <div class="card-body text-center">
-                    <h5 class="card-title">${curso.title}</h5>
-                    <p class="card-text">${curso.description}</p>
-                    <a href="${curso.schedule}" data-id="${index}" class="btn btn-dark">Ver Programa</a>
-                </div>
+        `<div class="col-lg-10 col-xl-4 mb-5 bt-5 d-flex flex-column align-items-center justify-content-center">
+            <div class="cursos-img">
+                <img src="" alt="curso 1">
             </div>
+            <h3>${curso.title}</h3>
+            <p>${curso.description}</p>
+            <button class="button button-programa"><a href="${curso.schedule}" data-id="${index}" class="btn btn-dark">Ver Programa</a></button>
         </div>`
         )
     })
