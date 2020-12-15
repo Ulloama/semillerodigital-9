@@ -16,7 +16,7 @@ function renderAliados(data) {
         listaAliados.append(
         `<div class="col" style="padding-bottom: 20px; border-radius: 100%;">
             <a href="${aliado.url}" target="_blank">
-                <img src="${aliado.img}" class="img-fluid max-width: 20% shadow" style="border-radius: 100%;" alt="${aliado.title}">
+                <img src="${aliado.img}" class="img-fluid shadow" style="border-radius: 100%; width: 50%" alt="${aliado.title}">
             </a>
             <h3 style="padding-top: 20px">${aliado.title}</h3>
         </div>`
