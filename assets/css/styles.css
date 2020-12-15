@@ -80,9 +80,6 @@ h3 {
   align-items: flex-end;
   justify-content: center;
 }
-.button-blog-inicio::before {
-  content: "";
-}
 
 header .navbar {
   position: relative;
@@ -138,18 +135,6 @@ header .navbar .navbar-nav button {
 .home-superior .home-superior__texto .parrafo-boton {
   font-weight: 300;
   font-size: 1.8rem;
-}
-.home-superior::before {
-  content: " ";
-  display: block;
-  height: 89.2rem;
-  width: 89.2rem;
-  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
-  position: absolute;
-  z-index: 10;
-  border-radius: 50%;
-  top: -10.5rem;
-  left: -18.2rem;
 }
 
 .proposito {
@@ -292,18 +277,7 @@ footer .row .redes li a img {
   width: 110rem;
   font-size: 2.4rem;
 }
-#sembrar::before {
-  content: " ";
-  display: block;
-  height: 115.8rem;
-  width: 115.8rem;
-  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
-  position: absolute;
-  z-index: -1;
-  border-radius: 50%;
-  top: -66.2rem;
-  left: -66.4rem;
-}
+
 #sembrar .sembrar-staff {
   width: 91.8rem;
   background: #26ADFE;
@@ -389,18 +363,7 @@ footer .row .redes li a img {
   width: 110rem;
   font-size: 2.4rem;
 }
-#contacto::before {
-  content: " ";
-  display: block;
-  height: 115.8rem;
-  width: 115.8rem;
-  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
-  position: absolute;
-  z-index: -1;
-  border-radius: 50%;
-  top: -66.2rem;
-  left: -66.4rem;
-}
+
 
 #blog {
   margin-bottom: 8.8rem;
@@ -416,18 +379,7 @@ footer .row .redes li a img {
   font-size: 2.4rem;
   margin-bottom: 7rem;
 }
-#blog::before {
-  content: " ";
-  display: block;
-  height: 115.8rem;
-  width: 115.8rem;
-  background: radial-gradient(287.46% 287.46% at 44.04% 50.06%, #FCA707 0%, #FBFF24 100%);
-  position: absolute;
-  z-index: -1;
-  border-radius: 50%;
-  top: -66.2rem;
-  left: -66.4rem;
-}
+
 #blog .blog__entrada {
   background-color: #FAFAFA;
   padding: 1.2rem 6.6rem 5rem 6.6rem;
